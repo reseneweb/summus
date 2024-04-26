@@ -85,7 +85,7 @@
 }
 
 .header-mob .rectangle-21 {
-  background-image: url('../assets/vectors/rectangle202_x2.svg');
+  background-image: url('assets/vectors/rectangle202_x2.svg');
   position: absolute;
   right: 0px;
   width: 120px;
@@ -194,7 +194,7 @@
 }
 
 .header-background {
-  background-image: url('../assets/images/banner mob.jpg');
+  background-image: url('assets/images/banner mob.jpg');
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -275,7 +275,7 @@
   }
 
   .header-background {
-    background-image: url('../assets/images/Banner.jpg');
+    background-image: url('assets/images/Banner.jpg');
   }
 }
 
@@ -349,12 +349,12 @@
 }
 
 .swiper-button-prev {
-  background-image: url('../assets/images/Line 236.svg');
+  background-image: url('assets/images/Line 236.svg');
   left: calc(100% - 349px);
 }
 
 .swiper-button-next {
-  background-image: url('../assets/images/Line 236.svg');
+  background-image: url('assets/images/Line 236.svg');
   transform: rotate(180deg);
   right: 222px;
 }
@@ -436,7 +436,7 @@
 }
 
 .play-button {
-  background-image: url('../assets/images/green-play.svg');
+  background-image: url('assets/images/green-play.svg');
   position: absolute;
   bottom: 98px;
   cursor: pointer;
@@ -497,7 +497,7 @@
 }
 
 .button-with-bg {
-  background-image: url('../assets/images/btn0.svg');
+  background-image: url('assets/images/btn0.svg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -516,7 +516,7 @@
 }
 
 .button-with-bg--2 {
-  background-image: url('../assets/images/btn.svg');
+  background-image: url('assets/images/btn.svg');
 }
 
 .button-with-bg:hover {
@@ -533,7 +533,7 @@
 
 @media screen and (min-width: 992px) {
   .play-button {
-    background-image: url('../assets/images/gray-play.svg');
+    background-image: url('assets/images/gray-play.svg');
     bottom: 131px;
   }
 
