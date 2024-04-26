@@ -349,12 +349,12 @@
 }
 
 .swiper-button-prev {
-  background-image: url('assets/images/Line 236.svg');
+  background-image: url('assets/images/line236.svg');
   left: calc(100% - 349px);
 }
 
 .swiper-button-next {
-  background-image: url('assets/images/Line 236.svg');
+  background-image: url('assets/images/line236.svg');
   transform: rotate(180deg);
   right: 222px;
 }
@@ -436,7 +436,7 @@
 }
 
 .play-button {
-  background-image: url('assets/images/green-play.svg');
+  background-image: url('assets/images/greenPlay.svg');
   position: absolute;
   bottom: 98px;
   cursor: pointer;
@@ -533,7 +533,7 @@
 
 @media screen and (min-width: 992px) {
   .play-button {
-    background-image: url('assets/images/gray-play.svg');
+    background-image: url('assets/images/grayPlay.svg');
     bottom: 131px;
   }
 
