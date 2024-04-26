@@ -4,9 +4,222 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Summus</title>
   </head>
-  <body>
-    <header>Summus</header>
+  <body class="body">
+    <header class="header-mob">
+      <a class="logo-container" href="#">
+        <img class="rectangle-22" src="../assets/vectors/rectangle22_x2.svg" />
+        <img class="logo" src="../assets/images/base_logo_transparent_background 1.svg" />
+      </a>
+
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#choose-us">ABOUT US</a></li>
+          <li><a href="#featured-games">PRODUCTS & SOLUTIONS</a></li>
+          <li><a href="#featured-games">GAMES</a></li>
+          <li><a href="#featured-games">NEWS</a></li>
+          <li><a href="#contact-section">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="frame-22 menu-toggle">
+        <div class="iconmenu ">
+          <div class="vector">
+          </div>
+          <div class="vector-1">
+          </div>
+          <div class="vector-2">
+          </div>
+        </div>
+
+        <div class="menu">
+          MENU
+        </div>
+      </div>
+
+      <div class="language-selector">
+        <select>
+          <option value="en">English</option>
+        </select>
+      </div>
+
+      <div class="btn">
+        <a href="#contact-section">
+          <img class="rectangle-21" src="../assets/vectors/rectangle21_x2.svg" alt="Contact us" />
+          <span class="contact-us">
+            Contact us
+          </span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="header-background">
+      </section>
+
+      <section class="featured-games" id="featured-games">
+        <div class="featured-games-header">
+          <span class="section-name"># SUMMUS GAMES</span>
+          <h2 class="title">Featured Games</h2>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide game-card">
+              <div class="game-card-content">
+                <img src="../assets/images/image1.png" alt="Game Image" class="game-image" />
+                <div class="play-button"></div>
+
+                <div class="game-info">
+                  <h3 class="game-title">Ocean Mysteries</h3>
+                  <div class="game-container">
+                    <div>
+                      <p class="game-demo">Play free: </p>
+                      DEMO
+                    </div>
+
+                    <button class="info-button">
+                      Info
+                      <img src="../assets/images/icon _info.svg" alt="Info" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide game-card">
+              <div class="game-card-content">
+                <img src="../assets/images/image2.png" alt="Game Image" class="game-image" />
+                <div class="play-button"></div>
+
+                <div class="game-info">
+                  <h3 class="game-title">Gamestars</h3>
+                  <div class="game-container">
+                    <div>
+                      <p class="game-demo">Play free: </p>
+                      DEMO
+                    </div>
+
+                    <button class="info-button">
+                      Info
+                      <img src="../assets/images/icon _info.svg" alt="Info" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide game-card">
+              <div class="game-card-content">
+                <img src="../assets/images/image3.png" alt="Game Image" class="game-image" />
+                <div class="play-button"></div>
+
+                <div class="game-info">
+                  <h3 class="game-title">Lotto Bubble</h3>
+                  <div class="game-container">
+                    <div>
+                      <p class="game-demo">Play free: </p>
+                      DEMO
+                    </div>
+
+                    <button class="info-button">
+                      Info
+                      <img src="../assets/images/icon _info.svg" alt="Info" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide game-card">
+              <div class="game-card-content">
+                <img src="../assets/images/image4.jpg" alt="Game Image" class="game-image" />
+                <div class="play-button"></div>
+
+                <div class="game-info">
+                  <h3 class="game-title">Celestial Voyages</h3>
+                  <div class="game-container">
+                    <div>
+                      <p class="game-demo">Play free: </p>
+                      DEMO
+                    </div>
+
+                    <button class="info-button">
+                      Info
+                      <img src="../assets/images/icon _info.svg" alt="Info" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide game-card">
+              <div class="game-card-content">
+                <img src="../assets/images/image5.png" alt="Game Image" class="game-image" />
+                <div class="play-button"></div>
+
+                <div class="game-info">
+                  <h3 class="game-title">Jungle Quest</h3>
+                  <div class="game-container">
+                    <div>
+                      <p class="game-demo">Play free: </p>
+                      DEMO
+                    </div>
+
+                    <button class="info-button">
+                      Info
+                      <img src="../assets/images/icon _info.svg" alt="Info" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <button class="button-with-bg"></button>
+      </section>
+
+      <section class="choose-us" id="choose-us">
+        <div class="choose-us-container">
+          <div class="featured-games-header featured-games-header--1">
+            <span class="section-name"># WHY CHOOSE US</span>
+            <h2 class="title featured-games-header-margin">Our Values Inspire And Drive Our Every Move !</h2>
+          </div>
+
+          <p class="choose-us__description choose-us__description--1">Gamers can join local gaming meetups, participate
+            in gaming events, or connect
+            with
+            like-minded individuals through online forums and social media groups. Engaging with the community helps
+            build
+            connections and creates opportunities for collaborative gaming experiences.
+          </p>
+        </div>
+
+        <img src="../assets/images/image5.png" alt="Game Image" class="choose-us__image" />
+        <img src="../assets/images/image1.png" alt="Game Image2" class="choose-us__image2" />
+        <img src="../assets/images/experience.svg" alt="Game Image" class="choose-us__experience" />
+
+        <p class="choose-us__description choose-us__description--2">Gamers can join local gaming meetups, participate in
+          gaming events, or connect
+          with like-minded individuals through online forums and social media groups. Engaging with the community helps
+          build connections and creates opportunities for collaborative gaming experiences.
+        </p>
+
+        <button class="button-with-bg button-with-bg--2"></button>
+      </section>
+
+      <div id="contact-section">
+      </div>
+    </main>
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="swiper-init.js"></script>
   </body>
 </html>
