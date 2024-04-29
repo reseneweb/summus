@@ -282,7 +282,8 @@
 
 .featured-games {
   position: relative;
-  margin-bottom: 82px;
+  max-width: 1224px;
+  margin: 0 auto 82px;
 }
 
 .featured-games-header {
@@ -488,6 +489,7 @@
 .info-button {
   left: 0;
   display: flex;
+  gap: 3px;
   height: 17px;
   color: #38CF3A;
   background: none;
@@ -561,8 +563,9 @@
 }
 
 .choose-us {
-  margin: 0 10px 69px;
+  margin: 0 auto 69px;
   position: relative;
+  max-width: 1224px;
 }
 
 .choose-us__description {
