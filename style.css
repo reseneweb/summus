@@ -486,11 +486,16 @@
   margin: 0;
 }
 
+.game-demo-word {
+  text-decoration: none;
+  color: #38CF3A;
+}
+
 .info-button {
   left: 0;
   display: flex;
   gap: 3px;
-  height: 17px;
+  max-height: 17px;
   color: #38CF3A;
   background: none;
   border: none;
@@ -573,7 +578,7 @@
   font-size: 16px;
   line-height: 26px;
   color: #969EB2;
-  margin: 0 0 38px 0;
+  margin: 0 10px 38px;
 }
 
 .choose-us__image {
