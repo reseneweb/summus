@@ -197,7 +197,7 @@
 .header-background {
   background-image: url('assets/images/banner mob.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 37%;
   height: 600px;
   margin-bottom: 47px;
 }
@@ -610,7 +610,7 @@
     right: 0;
     width: calc(50% + 11px);
     height: 480px;
-    margin-left: 10px;
+    margin-left: 0;
   }
 
   .choose-us__image2 {
@@ -618,6 +618,7 @@
     position: relative;
     width: calc(50% + 11px);
     height: 480px;
+    margin-left: 10px;
   }
 
   .choose-us__experience {
@@ -642,8 +643,247 @@
     position: relative;
     margin-left: calc(50% + 80px);
   }
+}
 
-  .featured-games-header--1 {
+.partners {
+  margin-bottom: 55px;
+}
+
+.partners-title {
+  max-width: 1224px;
+  margin-bottom: 16px;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1224px;
+  padding: 0 10px;
+}
+
+.logo-box {
+  width: calc(50% - 5px);
+  height: 130px;
+  background-color: #1E1E1E;
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0% 30px, 30px 0%, 100% 0%, 100% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+@media (min-width: 580px) and (max-width: 991px) {
+  .logo-box {
+    width: calc(33.3% - 6.7px);
+  }
+}
+
+@media (min-width: 992px) {
+  .logo-box {
+    width: calc(25% - 7.5px);
+    height: 211px;
+  }
+
+  .logos-container {
+    margin: 0 auto;
+  }
+
+  .partners-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .partners-title {
+    margin: 0 auto 41px;
+  }
+
+  .partners {
+    margin-bottom: 122px;
+  }
+}
+
+.footer {
+  margin: 0 10px;
+}
+
+.about {
+  position: relative;
+  margin: 0 8.4px 0 0;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 8.4px);
+  box-sizing: border-box;
+}
+
+.base-logo-transparent-background-3 {
+  background: url('../assets/images/base_logo_transparent_background green.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 105px;
+  height: 63px;
+}
+
+.frame-28 {
+  margin-bottom: 23px;
+}
+
+.footer__paragraph {
+  margin: 0 0 23px;
+}
+
+.footer-logos {
+  width: 46px;
+  height: 46px;
+}
+
+.folow-us-container {
+  margin-bottom: 20px;
+}
+
+.folow-us {
+  display: inline;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  width: max-content;
+}
+
+.folow-us--1 {
+  display: inline;
+  color: #38CF3A;
+}
+
+.container-2 {
+  margin-bottom: 68px;
+  display: flex;
+  gap: 4px;
+}
+
+.container-2-link {
+  display: block;
+  width: 46px;
+  height: 46px;
+  transition: transform 0.5s;
+}
+
+.container-2-link:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.useful-link-title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.line-12 {
+  background: linear-gradient(96.03deg, #45f882, #ffbe18);
+  width: 92px;
+  height: 2px;
+  margin-bottom: 34px;
+}
+
+.contacts {
+  margin-bottom: 85px;
+}
+
+.link-list {
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+}
+
+.footer-navigation {
+  margin-bottom: 39px;
+}
+
+.footer-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: #969EB2;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #38CF3A;
+}
+
+.contacts-adress {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: #969EB2;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #fff;
+  margin: 0 0 25px;
+  height: max-content;
+}
+
+.copyright-text {
+  color: #38CF3A;
+  margin: 0;
+}
+
+.logo-2 {
+  position: relative;
+  width: 105px;
+  height: 63px;
+}
+
+@media screen and (min-width: 992px) {
+  .footer {
+    flex-wrap: wrap;
+    background-image: url('assets/vectors/footerBackground.svg');
+    background-color: #000;
+    width: 100%;
+    height: 504px;
     margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 85px;
+    box-sizing: border-box;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1224px;
+    margin: 0 auto;
+  }
+
+  .about {
+    width: 600px;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
   }
 }
