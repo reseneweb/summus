@@ -1,7 +1,7 @@
 # Summus
 **Summus** presents a vibrant gaming platform, leveraging modern web technologies to showcase a diverse collection of games and interactive content. Our site serves as a portal for exploring exciting gaming opportunities and insights into the gaming industry.
 
-**Live Demo:** [https://grandia-solutions-peach.vercel.app/](https://reseneweb.github.io/summus/)
+**Live Demo:** https://reseneweb.github.io/summus/
 ### **Core Features:**
 
 **Interactive Game Showcases:** Each game on our platform is presented with rich visuals and interactive elements, enhancing user engagement and providing a deep dive into the game mechanics and storyline.
