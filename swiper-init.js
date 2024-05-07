@@ -1,4 +1,4 @@
-var mySwiper = new Swiper('.mySwiper', {
+const mySwiper = new Swiper('.mySwiper', {
   direction: 'horizontal',
   loop: true,
   simulateTouch: true,

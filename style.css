@@ -495,7 +495,7 @@
   left: 0;
   display: flex;
   gap: 3px;
-  max-height: 17px;
+  max-height: 18px;
   color: #38CF3A;
   background: none;
   border: none;
@@ -676,8 +676,8 @@
 }
 
 .partners-logo {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
 }
 
